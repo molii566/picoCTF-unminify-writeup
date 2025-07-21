@@ -2,8 +2,7 @@
 
 ## 🧠 Challenge Overview
 
-**Category:** Web Exploitation  
-**Points:** _[Add points if known]_  
+**Category:** Web Exploitation   
 **Challenge Description:**
 
 > Welcome to my flag distribution website!  
@@ -16,7 +15,8 @@
 
 ### 🔹 Step 1: Launch the Challenge Instance
 
-I began by launching the instance provided by the challenge. This gave me access to a hosted environment where the flag was supposedly being served.
+I began by launching the instance provided by the challenge. 
+This gave me access to a hosted environment where the flag was supposedly being served.
 
 📸 _Screenshot (optional)_  
 ![Launch Instance](images/11.png)
@@ -25,7 +25,8 @@ I began by launching the instance provided by the challenge. This gave me access
 
 ### 🔹 Step 2: Access the Challenge Webpage
 
-I clicked on the **“Click here”** link provided by the instance, which opened a new page displaying the following message:
+I clicked on the **“Click here”** link provided by the instance,
+which opened a new page displaying the following message:
 
 > Welcome to my flag distribution website!  
 > If you're reading this, your browser has successfully received the flag.  
@@ -47,7 +48,9 @@ Right-clicked the webpage → **"View Page Source"** (or used `Ctrl+U`) to inspe
 
 ### 🔹 Step 4: Format the Minified Code
 
-The source revealed a long minified JavaScript block. To make it readable, I enabled **"Wrap long lines"** in the browser source view. This, along with syntax highlighting, helped me analyze the script more effectively.
+The source revealed a long minified JavaScript block. To make it readable,
+I enabled **"Wrap long lines"** in the browser source view.
+This, along with syntax highlighting, helped me analyze the script more effectively.
 
 📸  
 ![Wrapped Code](images/44.png)
@@ -65,5 +68,6 @@ picoCTF{pr3tty_c0d3_622b2c88}
 
 Conclusion
 
-This challenge reinforces the importance of viewing and analyzing source code during CTFs. Even heavily minified or obfuscated scripts may contain valuable clues if you know where and how to look
+This challenge reinforces the importance of viewing and analyzing source code during CTFs.
+ Even heavily minified or obfuscated scripts may contain valuable clues if you know where and how to look
 ```
